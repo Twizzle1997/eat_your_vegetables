@@ -7,7 +7,7 @@ class Vegetable(ABC) :
 
     @abstractmethod
     def grow(self, number):
-        self.seed =+ number
+        pass
 
 
 class Tomato(Vegetable) :

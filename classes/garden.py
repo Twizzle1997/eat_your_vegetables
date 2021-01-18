@@ -10,4 +10,9 @@ class Garden :
 
     def add(self, cls):
         self._plant(cls)
-        self.seed = self.seed + cls.seed
+        
+        if (self.seed + cls.seed) > 30:
+            print('Jardin surchargé, ça va exploser ici ! Trouve un autre potager ! Merci !')
+        
+        else:
+            self.seed += cls.seed
