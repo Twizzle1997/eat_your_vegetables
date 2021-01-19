@@ -2,8 +2,9 @@ from abc import ABC, abstractmethod
 
 class Vegetable(ABC) :
 
-    def __init__(self, seed = 0):
+    def __init__(self, seed = 0, type="none"):
         self.seed = seed
+        self.type = type
 
     @abstractmethod
     def grow(self, number):
