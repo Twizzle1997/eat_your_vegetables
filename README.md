@@ -16,9 +16,9 @@ To get a local copy up and running follow these steps.
 
 ### Installation
 
-    ```sh
+```sh
     git clone https://github.com/Twizzle1997/eat_your_vegetables
-    ```
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
